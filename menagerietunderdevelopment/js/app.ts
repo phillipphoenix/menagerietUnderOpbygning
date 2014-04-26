@@ -14,3 +14,7 @@ $(window).ready(function() {
         $(this).stop(true, true).delay(700*index).fadeIn({ duration: 700, queue: false }).css('display', 'none').slideDown(500);
     });*/
 });
+
+$('a.reload').click(function() {
+    window.location.reload();
+});
